@@ -6,7 +6,7 @@ from langchain.chains import SimpleSequentialChain
 from langchain.chains import SequentialChain
 from langchain_community.llms import OpenAI
 
-os.environ['OPENAI_API_KEY'] = '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' # cb-llm
+os.environ['OPENAI_API_KEY'] = <OPENAI_API_KEY> # cb-llm
 llm = OpenAI(temperature = 0.6)
 
 def generate_restaurant_name_and_items(cuisine):
